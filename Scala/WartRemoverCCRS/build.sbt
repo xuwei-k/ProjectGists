@@ -34,7 +34,7 @@ val upickleVersion = "0.6.5"
 val commonSettings = Seq(
   version := "1.0-SNAPSHOT",
   scalaVersion := scalaVersionSelect,
-  scalacOptions := Seq(
+  scalacOptions ++= Seq(
     "-encoding", "UTF-8",
     "-feature",
     "-unchecked",
